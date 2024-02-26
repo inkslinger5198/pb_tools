@@ -1,0 +1,84 @@
+/* timeconverter.css - Update this file with the following styles */
+
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .time_converter {
+    background-color: #d2e1ed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 0;
+  }
+  
+  .timeconverter {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  
+  .timeconverter h1 {
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .time-row, .timeconverter div {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-box, select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-box:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .timeconverter label {
+    display: block;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+  }
+  
+  .gcal {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .gcal-iframe iframe {
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    height: 450px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .timeconverter, .gcal-iframe iframe {
+      width: 95%;
+      padding: 1rem;
+    }
+  }
+  

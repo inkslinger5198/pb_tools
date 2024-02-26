@@ -1,0 +1,30 @@
+.navbar nav {
+  background-color: rgba(0, 0, 0, 0.1); /* Dark background for the navbar */
+  padding: 1rem 1.5rem; /* Some padding around the navbar content */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  backdrop-filter: blur(10px); /* Add a blur effect to the navbar */
+  z-index: 100; /* Make sure the navbar is always on top */
+}
+
+.navbar .nav-links {
+  display: flex; /* Align nav-items in a row */
+  justify-content: center; /* Center the nav-items */
+}
+
+.navbar .nav-links li {
+  margin: 0 20px; /* Spacing between nav-items */
+}
+
+.navbar .nav-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: rgb(0, 0, 0); /* Light text color for contrast */
+  font-weight: bold; /* Make the text a bit bolder */
+}
