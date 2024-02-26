@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pb_tools/static/css/main.c8eaa3be.css",
+    "main.js": "/pb_tools/static/js/main.e0d0f783.js",
+    "index.html": "/pb_tools/index.html",
+    "main.c8eaa3be.css.map": "/pb_tools/static/css/main.c8eaa3be.css.map",
+    "main.e0d0f783.js.map": "/pb_tools/static/js/main.e0d0f783.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8eaa3be.css",
+    "static/js/main.e0d0f783.js"
+  ]
+}
